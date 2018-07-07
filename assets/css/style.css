@@ -1,0 +1,253 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    position: fixed;
+    top:0;
+    bottom:0;
+   background-image:url("../images/subtle_zebra_3d.png");
+   margin:0;
+   padding:0;
+   height:100%;
+   width:100%
+}
+#container{
+   
+   height:100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+header{
+    position: fixed;
+    top:0px;
+    left:0;
+    right:0;
+    height:100px;
+    width:100%;
+    background-color:grey;
+    overflow: hidden;
+   
+}
+h1{
+    color:#eee;
+    font-size:30px;
+    border-bottom:2px solid  #009999;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 30px;
+   padding-bottom: 20px; 
+    text-align:left;
+   font-family:  'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+footer{
+    position: fixed;
+    bottom:0px;
+    left:0;
+    height:85px;
+    width:100%;
+    background-color: gray;
+    text-align: center;
+   border-top: 15px solid #009999;
+   padding-top: 20px;
+   color:#eee;
+ 
+}
+nav{
+    float: left;
+    position: absolute;
+    right:210px;
+    bottom:30px;
+   
+}
+nav a{
+  
+   float: right;
+   padding: 0 24px 0 24px;
+   color: #f2f2f2;
+   text-align: center;
+  text-decoration: none;
+   font-size: 20px;
+    
+}
+nav a:hover{
+    color: black;
+    background-color: #009999;
+}
+section{
+width:960px;
+height:400px;
+background-color:grey;
+margin:150px 250px 140px 300px;
+
+}
+
+#Name{
+    font-family: 'Georgia', Times,'Times New Roman', serif;
+    font-size: 30px;
+    color: #eee;
+    position: absolute;
+    left:200px;
+    height:100px;
+    width: 200px;
+    background-color:#009999;
+     text-align: center;
+      padding-top: 15px;
+}
+.clearfix{
+    overflow: auto;
+}
+.img{
+    float:left;
+    margin:5px 20px 20px 20px;
+   
+}
+.para{
+    font-family: 'Georgia', Times,'Times New Roman', serif;
+    font-size: 20px;
+    color: #eee;
+    margin: 5px 20px 20px 10px;
+}
+.formstyle{
+    margin:20px 20px 20px;
+    
+    color: #eee;
+}
+input[type=text]{
+    width: 100%;
+    padding: 8px 15px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+   box-sizing: border-box;
+   font-size: 15px;
+   font-family: 'Georgia', Times,'Times New Roman', serif;
+}
+input[type=submit]{
+    width: 13%;
+    padding:10px 15px;
+    margin: 8px 0;
+    border:none;
+    font-family: 'Georgia', Times,'Times New Roman', serif;
+font-size: 15px;
+color: #eee;
+background-color: #009999;
+}
+input[type=submit]:hover{
+    background-color: green;
+    color: black;
+}
+#contact{
+width:960px;
+height:450px;
+background-color:grey;
+margin:90px 200px 100px 200px;
+}
+.height{
+    height:150px;
+    
+}
+#header1{
+    position: fixed;
+    top:0px;
+    left:0;
+    height:70px;
+    width:100%;
+    background-color:grey;
+    overflow: hidden;
+   
+}
+#footer{
+    position: fixed;
+    bottom:0px;
+    left:0;
+    height:60px;
+    width:100%;
+    background-color: gray;
+    text-align: center;
+   border-top: 10px solid #009999;
+   padding-top: 10px;
+   color:#eee;
+ 
+}
+#Name1{
+    font-family: 'Georgia', Times,'Times New Roman', serif;
+    font-size: 26px;
+    color: #eee;
+    position: absolute;;
+    left:200px;
+    height:100px;
+    width: 200px;
+    background-color:#009999;
+     text-align: center;
+      padding-top: 5px;
+}
+
+h2{
+    color:#eee;
+    font-size:25px;
+    border-bottom:2px solid  #009999;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+   padding-bottom: 10px; 
+    text-align:left;
+   font-family:  'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+#portfolio{
+    width:960px;
+    height:450px;
+    background-color:grey;
+    margin:90px 200px 100px 200px;
+    overflow-wrap: inherit;
+    }
+#about{
+    width:960px;
+    height:390px;
+    background-color:grey;
+    margin:150px 200px 10px 200px;
+}
+.container1 {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+   overflow: auto;
+}
+
+.container1 img {
+    margin-left:10px;
+    width: 200px;
+    height: 150px;
+}
+
+.container1 button {
+    position: absolute;
+    top: 60%;
+    left: 10px;
+    width:200px;
+    background-color:#009999;
+    color: white;
+    font-size: 16px;
+    border: none;
+   padding:10px;
+    text-align: center;
+}
+
+.container1 button:hover {
+    background-color: black;
+}
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
