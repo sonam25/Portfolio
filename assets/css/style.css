@@ -90,11 +90,17 @@ margin:150px 250px 140px 300px;
 .clearfix{
     overflow: auto;
 }
+.clearfix ul li{
+    font-size: 20px;
+    color:#eee;
+    margin-left:10px
+}
 .img{
-    width:150px;
+    width:160px;
      height:175px;
     float:left;
     margin:5px 20px 10px 20px;
+    padding-right:10px;
    
 }
 .para{
@@ -137,6 +143,11 @@ width:960px;
 height:450px;
 background-color:grey;
 margin:90px 200px 100px 200px;
+}
+#contact ul li{
+    font-size:30px;
+    color:#eee;
+
 }
 .height{
     height:150px;
