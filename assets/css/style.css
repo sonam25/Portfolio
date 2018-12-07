@@ -195,16 +195,17 @@ h2{
     border-bottom:2px solid  #009999;
     margin-left: 20px;
     margin-right: 20px;
-    padding-top: 20px;
-   padding-bottom: 10px; 
+    padding-top: 0px;
+   margin-top: 3px;
+   margin-bottom: 0;
     text-align:left;
    font-family:  'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 #portfolio{
-    width:960px;
-    height:450px;
+    width: 1350px;;
+    height:485px;
     background-color:grey;
-    margin:90px 200px 100px 200px;
+    margin:90px 20px 70px 10px;
     overflow-wrap: inherit;
     overflow:auto;
     }
@@ -224,12 +225,12 @@ h2{
 .container1 img {
     margin-left:10px;
     width: 200px;
-    height: 150px;
+    height: 125px;
 }
 
 .container1 button {
     position: absolute;
-    top: 60%;
+    top: 55%;
     left: 10px;
     width:200px;
     background-color:#009999;
@@ -244,7 +245,7 @@ h2{
     background-color: black;
 }
 .row {
-    margin: 8px -16px;
+    margin: 8px;
 }
 
 /* Add padding BETWEEN each column */
@@ -256,7 +257,7 @@ h2{
 /* Create four equal columns that floats next to each other */
 .column {
     float: left;
-    width: 25%;
+    width: 20%;
 }
 
 @media screen and (max-width:980px){
