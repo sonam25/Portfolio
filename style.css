@@ -82,6 +82,7 @@ main{
 }
 
 .jumbotron .container {
+ 
   max-width: 40rem;
 }
 
@@ -379,3 +380,7 @@ footer ul li{
   color:white
 }
 
+.stylealignleft{
+  text-align: left;
+  margin-left:5%
+}
